@@ -89,6 +89,17 @@ header a:hover{
   font-size:20px;
 }
 
+#showcase li{
+  margin-top:75px;
+  float:right;
+  display:inline;
+  padding:0 0 0 10px;
+}
+
+#showcase a:hover{
+  filter:opacity(50%);
+}
+
 /* Education */
 #education{
   min-height:500px;
