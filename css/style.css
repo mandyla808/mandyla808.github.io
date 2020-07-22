@@ -15,10 +15,6 @@ body{
   overflow:hidden;
 }
 
-.highlightme{
-  background-color:#FBE8A6; /* Yellow */
-}
-
 ul{
   margin:0;
   padding:0;
@@ -107,7 +103,8 @@ header a:hover{
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center center;
-  color:#000000;
+  text-shadow: #000000 1px 0 10px;
+  color:#FFFFFF;
   padding-bottom:30px;
 }
 
@@ -123,7 +120,7 @@ header a:hover{
 
 #education p{
   font-size:20px;
-  background-color:#FBE8A6;
+  /*background-color:#FBE8A6;*/
 }
 
 /* Research */
