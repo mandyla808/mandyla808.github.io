@@ -33,7 +33,7 @@ header a{
   color:#303C6C; /* Dark Blue */
   text-decoration:none;
   text-transform:uppercase;
-  font-size:16px;
+  font-size:18px;
 }
 
 header li{
@@ -56,6 +56,7 @@ header #branding a{
 header nav{
   float:right;
   margin-top:10px;
+  font-weight:bold;
 }
 
 header a:hover{
@@ -81,22 +82,59 @@ header a:hover{
   text-align:center;
 }
 
-#showcase p{
+#showcase h3{
+  font-size:25px;
+  font-weight:bold;
+}
+
+/* About Me */
+#about-me{
+  min-height:500px;
+  color:#303C6C;
+  padding-bottom:45px;
+}
+
+#self{
+  display:inline;
+  float:left;
+  margin-top:115px;
+  padding:0 40px 0 0;
+}
+
+#about-me h1{
+  margin-top:75px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#about-me h3{
+  font-size:30px;
+}
+
+#about-me p{
   font-size:20px;
 }
 
-#showcase li{
-  margin-top:75px;
-  float:right;
-  display:inline;
-  padding:0 0 0 10px;
+#about-me a{
+  color:#303C6C; /* Dark Blue */
+  text-decoration:none;
+  text-transform:uppercase;
 }
 
-#showcase a:hover{
+#about-me li{
+  float:right;
+  display:inline;
+  padding:0 40px 0 0;
+  font-size:16px;
+  color:#303C6C;
+}
+
+#about-me a:hover{
+  font-weight:bold;
   filter:opacity(50%);
 }
 
-/* Education */
+/* Education
 #education{
   min-height:500px;
   background-image:url('../img/uchicago2.jpg');
@@ -120,50 +158,57 @@ header a:hover{
 
 #education p{
   font-size:20px;
-  /*background-color:#FBE8A6;*/
+  /*background-color:#FBE8A6;
 }
+
 
 /* Research */
 #research{
   min-height:500px;
-  background-color:#B4DFE5;
-  color:#F4976C;
-  padding-bottom:45px;
+  background-image:url('../img/research.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  color:#000000;
+  padding-bottom:50px;
 }
 
 #research h1{
-  margin-top:75px;
+  margin-top:60px;
   font-size:55px;
   margin-bottom:10px;
+  font-weight:bold;
 }
 
 #research h3{
   font-size:30px;
+  font-weight:bold;
 }
 
 #research p{
   font-size:20px;
-  color:#F4976C;
+  font-weight:bold;
 }
 
 #research a{
-  color:#303C6C; /* Dark Blue */
   text-decoration:none;
   text-transform:uppercase;
   font-size:16px;
+  color:#FFFFFF;
+  background-color:#303C6C;
+  padding:3px 8px 3px 8px;
 }
 
 #research li{
   float:left;
   display:inline;
-  padding:0 40px 0 0;
+  margin-right: 40px;
   font-size:16px;
-  color:#303C6C;
 }
 
 #research a:hover{
-  color:#F4976C;
   font-weight:bold;
+  filter:opacity(50%);
 }
 
 /* Work Experience */
@@ -171,7 +216,7 @@ header a:hover{
   min-height:500px;
   background-color:#FFFFFF;
   color:#303C6C;
-  padding-bottom:45px;
+  padding-bottom:50px;
 }
 
 #work h1{
@@ -191,11 +236,16 @@ header a:hover{
   color:#F4976C;
 }
 
+#work li{
+  font-size:18px;
+}
+
 /* Projects */
 #projects{
   min-height:500px;
-  color:#303C6C;
-  padding-bottom:45px;
+  background-color:#303C6C;
+  padding-bottom:50px;
+  color:#FFFFFF;
 }
 
 #projects h1{
@@ -207,19 +257,21 @@ header a:hover{
 #projects h3{
   font-size:30px;
   margin-bottom:10px;
-
 }
 
 #projects p{
   font-size:20px;
-  color:#F4976C;
+  color:#FBE8A6;
 }
 
 #projects a{
   color:#303C6C; /* Dark Blue */
   text-decoration:none;
   text-transform:uppercase;
-  font-size:16px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:#FBE8A6;
+  padding:3px 8px 3px 8px;
 }
 
 #projects li{
@@ -227,19 +279,19 @@ header a:hover{
   display:inline;
   padding:0 40px 0 0;
   font-size:16px;
-  color:#303C6C;
+  color:#FFFFFF;
 }
 
 #projects a:hover{
-  color:#F4976C;
   font-weight:bold;
+  filter:opacity(50%);
 }
 
 /* Footer */
 footer{
   background:#B4DFE5; /* Light Blue */
   color:#303C6C; /* Dark Blue */
-  border-top:#F4976C 3px solid; /* Dark Orange */
+  border-top:#FBE8A6 3px solid; /* Dark Orange */
   width:100%;
   margin:auto;
   overflow:hidden;
